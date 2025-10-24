@@ -33,8 +33,6 @@ timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
 content TEXT
 );
 
-text
-
 ---
 
 ## 📝 Workflow Guide (.md Example)
@@ -58,8 +56,6 @@ Flag ambiguous cases for human review
 
 Example
 save_agent_memory("projectA", "src/payments.py", "agent", "bug", "Resolved payment error with ENV config.")
-
-text
 
 ---
 
@@ -96,9 +92,6 @@ rows = cur.fetchall()
 cur.close()
 conn.close()
 return rows
-
-text
-
 ---
 
 ## 📦 How to Use
